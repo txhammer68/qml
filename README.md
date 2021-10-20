@@ -1,5 +1,9 @@
 # Misc Plasma qml widgets/code
 
+* G-Mail <br>
+![G-Mail](email.png)
+* Weather <br>
+![Weather](weather.png)
 * Search <br>
 ![Search](search.png)
 * System Monitor Dashboard <br>

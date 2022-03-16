@@ -11,4 +11,4 @@
 * System Menu <br>
 ![System menu](system-menu.png)
 * G-Mail Workspace <br>
-![G-Mail Workspace](system-menu.png)
+![G-Mail Workspace](Screenshot_gmail.png)

@@ -2,34 +2,42 @@ import QtQuick 2.8
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.plasma.core 2.0
-import QtWebView 1.15
+//import QtWebView 1.15
+import QtWebEngine 1.5
 // g-mail suite workspace app using qt webview
+// load each in a seperate webview for fast switching views
+// TO-DO
+// shortcut keys to switch views
+// integrate mailto handler for system wide email client
+// dark mode switch
+// settings for univeral mail app, urls for other mailboxes,calendars, etc...i.e not google
 
 ApplicationWindow {
         id:root
         visible: true
-        width: 1500
+        width: 1600
         height: 850
-        title: "G-Mail Workspace"
+        title: "Google Workspaces"
         Component.onCompleted: {
-                QtWebView.initialize()
-                web.initialize()
+               // Qt.qputenv("QTWEBENGINE_CHROMIUM_FLAGS=--force-dark-mode")
+                //qputenv(const char *varName, const QByteArray &value)
+                //QtWebView.initialize()
+                QtWebEngine.initialize()
+                //Keys.onPressed: {
+                //if(event.key===Qt.Key_Control && (event.modifiers & Qt.Key_Tab)){
+                //Keys.onPressed:Qt.Key_Control && Qt.Key_Tab=viewInbox.visible=false
+               //&&  Keys.onTabPressed) =  {viewInbox.visible=false
+                //focusPolicy: Qt.StrongFocus
         }
 
         Rectangle {
                 color:"black"
                 width:root.width
                 height:root.height
+                opacity:.75
 
         }
 
-        Rectangle {
-                color:"black"
-                width:1
-                height:root.height
-                anchors.left:navbar.right
-                anchors.leftMargin:15
-        }
         Column {
                 id:navbar
                 spacing:50
@@ -41,7 +49,8 @@ ApplicationWindow {
                         height: 48
                         source: "mail-inbox"
                         enabled:true
-                        opacity:1
+                        opacity:viewInbox.visible  ||  mouseArea.containsMouse ? 1:.5
+                        active: mouseArea.containsMouse || root.activeFocus
                         Text{
                                 anchors.top:inbox.bottom
                                 anchors.leftMargin:5
@@ -73,7 +82,8 @@ ApplicationWindow {
                         height: 48
                         source: "view-calendar-month"
                         enabled:true
-                        opacity:1
+                        opacity:viewCal.visible ||  mouseAreaCal.containsMouse ? 1:.5
+                        active: mouseAreaCal.containsMouse || root.activeFocus
 
                         Text{
                                 anchors.top:calender.bottom
@@ -105,7 +115,8 @@ ApplicationWindow {
                         height: 48
                         source: "view-pim-contacts"
                         enabled:true
-                        opacity:1
+                        opacity:viewCont.visible ||  mouseAreaContacts.containsMouse ? 1:.5
+                        active: mouseAreaContacts.containsMouse || root.activeFocus
 
                         Text{
                                 anchors.top:contacts.bottom
@@ -138,7 +149,8 @@ ApplicationWindow {
                         height: 48
                         source: "dialog-messages"
                         enabled:true
-                        opacity:1
+                        opacity:viewChat.visible ||  mouseAreaChat.containsMouse ? 1:.5
+                        active: mouseAreaChat.containsMouse || root.activeFocus
 
                         Text{
                                 anchors.top:chat.bottom
@@ -171,7 +183,8 @@ ApplicationWindow {
                         height: 48
                         source: "stock_video-conferencing"
                         enabled:true
-                        opacity:1
+                        opacity:viewMeet.visible ||  mouseAreaMeet.containsMouse ? 1:.5
+                        active: mouseAreaMeet.containsMouse || root.activeFocus
 
                         Text{
                                 anchors.top:meet.bottom
@@ -204,7 +217,8 @@ ApplicationWindow {
                         height: 48
                         source: "map-globe"
                         enabled:true
-                        opacity:1
+                        opacity:viewMaps.visible ||  mouseAreaMaps.containsMouse ? 1:.5
+                        active: mouseAreaMaps.containsMouse || root.activeFocus
 
                         Text{
                                 anchors.top:maps.bottom
@@ -237,7 +251,9 @@ ApplicationWindow {
                         height: 48
                         source: "view-pim-news"
                         enabled:true
-                        opacity:1
+                       opacity:viewNews.visible ||  mouseAreaNews.containsMouse ? 1:.5
+                       active: mouseAreaNews.containsMouse || root.activeFocus
+
 
                         Text{
                                 anchors.top:news.bottom
@@ -280,10 +296,16 @@ ApplicationWindow {
                         width:root.width
                         visible:true
 
-                        WebView {
+                       WebEngineView {
                                 id:web
                                 anchors.fill:viewInbox
                                 url: "https://mail.google.com/mail/u/0/#inbox"
+                                onNewViewRequested: {
+                                       if (request.userInitiated) {
+                                                request.action = WebEngineView.IgnoreRequest;
+                                                Qt.openUrlExternally(request.requestedUrl);
+                                        }
+                                }
                         }
                 }
 
@@ -295,7 +317,7 @@ ApplicationWindow {
                         width:root.width
                         visible:false
 
-                        WebView {
+                        WebEngineView {
                                 id:web1
                                 anchors.fill:viewCal
                                 url: "https://calendar.google.com/calendar/u/0/r"
@@ -310,7 +332,7 @@ ApplicationWindow {
                         width:root.width
                         visible:false
 
-                        WebView {
+                        WebEngineView {
                                 id:web2
                                 anchors.fill:viewCont
                                 url: "https://contacts.google.com/?hl=en#contacts"
@@ -325,7 +347,7 @@ ApplicationWindow {
                         width:root.width
                         visible:false
 
-                        WebView {
+                        WebEngineView {
                                 id:web3
                                 anchors.fill:viewChat
                                 url:"https://mail.google.com/chat/u/0/?hl=en#chat/welcome"
@@ -340,7 +362,7 @@ ApplicationWindow {
                         width:root.width
                         visible:false
 
-                        WebView {
+                        WebEngineView {
                                 id:web4
                                 anchors.fill:viewMaps
                                 url:"https://www.google.com/maps/"
@@ -355,7 +377,7 @@ ApplicationWindow {
                         width:root.width
                         visible:false
 
-                        WebView {
+                         WebEngineView {
                                 id:web5
                                 anchors.fill:viewMeet
                                 url:"https://meet.google.com/"
@@ -370,7 +392,7 @@ ApplicationWindow {
                         width:root.width
                         visible:false
 
-                        WebView {
+                        WebEngineView {
                                 id:web6
                                 anchors.fill:viewNews
                                 url:"https://news.google.com/topstories/"

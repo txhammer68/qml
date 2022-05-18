@@ -1,6 +1,7 @@
 # Misc Plasma qml widgets/code
 
 * G-Mail <br>
+* Using python gmail oauth, yahoo finance, espn <br>
 ![G-Mail](gmail.png)
 * Weather <br>
 ![Weather](weather1.png)

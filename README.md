@@ -1,6 +1,6 @@
 # Misc Plasma qml widgets/code
-# no config widget dev for personal use
-# edit qml code to change weather lat/lon, sports team, stocks, etc.
+### no config widget dev for personal use
+### edit qml code to change weather lat/lon, sports team, stocks, etc.
 
 * G-Mail <br>
 * Using python gmail oauth, yahoo finance, espn <br>

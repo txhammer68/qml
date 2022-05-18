@@ -2,7 +2,7 @@
 
 * G-Mail <br>
 * Using python gmail oauth, yahoo finance, espn <br>
-![G-Mail](gmail.png)
+[![G-Mail Widget](gmail.png)](GMail.zip)
 * Weather <br>
 ![Weather](weather1.png)
 * Search <br>

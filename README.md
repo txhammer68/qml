@@ -1,4 +1,6 @@
 # Misc Plasma qml widgets/code
+# no config widget dev for personal use
+# edit qml code to change weather lat/lon, sports team, stocks, etc.
 
 * G-Mail <br>
 * Using python gmail oauth, yahoo finance, espn <br>
@@ -10,7 +12,6 @@
 * System Monitor Dashboard <br>
 * [![System dashboard](dashboard.png)](https://github.com/txhammer68/qml/blob/master/SystemDashboard.zip)
 * System Menu <br>
-![System menu](system-menu.png)
 * [![System menu](system-menu.png)](https://github.com/txhammer68/qml/blob/master/system-menu.zip)
 * G-Mail Workspace <br>
 * [![G-Mail Workspace](Screenshot_gmail.png)](https://github.com/txhammer68/qml/blob/master/gmail/gmail.zip)

@@ -34,6 +34,10 @@ Item {
                            httpAcceptLanguage : "en-US,en;q=0.5"
                            //AllowPersistentCookies:true // not working
                 }
+	onFeaturePermissionRequested: {
+                        grantFeaturePermission(securityOrigin, feature, true);
+                        //grantFeaturePermission(cookie, feature, false);
+                    }
 	}
 	}
 }

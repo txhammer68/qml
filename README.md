@@ -7,7 +7,7 @@
 * Dark Sky Weather<br>
 [![Dark Sky Weather](dark-sky.png)](https://github.com/txhammer68/qml/blob/master/DakrSky.zip) <br>
 * Open Weather<br>
-[![Open Weather](weather1.png)](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
+[![Open Weather](OpenWeather.png)](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
 * Lotto<br>
 [![Lotto](lotto.png)](https://github.com/txhammer68/qml/blob/master/Lotto.zip) <br>
 * Search <br>

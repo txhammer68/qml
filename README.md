@@ -4,8 +4,12 @@
 
 * G-Mail <br>
 [![G-Mail Widget](gmail.png)](https://github.com/txhammer68/qml/blob/master/G-Mail.zip)<br>
-* [![Open Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
-(weather1.png)]
+* Dark Sky Weather
+[![Dark Sky Weather](dark-sky.png)](https://github.com/txhammer68/qml/blob/master/DakrSky.zip) <br>
+* Open Weather
+[![Open Weather](weather1.png)](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
+* Lotto
+[![Lotto](lotto.png)](https://github.com/txhammer68/qml/blob/master/Lotto.zip) <br>
 * Search <br>
 [![Search Widget](search.png)](https://github.com/txhammer68/qml/blob/master/org.kde.search.zip)
 * System Monitor Dashboard <br>

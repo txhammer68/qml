@@ -5,7 +5,8 @@
 * G-Mail <br>
   * Using python gmail oauth, yahoo finance, espn <br>
 
-![[G-Mail Widget](gmail.png) (https://github.com/txhammer68/qml/blob/master/G-Mail.zip)] <br>
+* ![![G-Mail Widget](https://github.com/txhammer68/qml/blob/master/G-Mail.zip)] <br>
+(gmail.png)]
 
 * [![Open Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
 (weather1.png)]

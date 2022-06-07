@@ -4,9 +4,10 @@
 
 * G-Mail <br>
   * Using python gmail oauth, yahoo finance, espn <br>
-[![G-Mail Widget](https://github.com/txhammer68/qml/blob/master/G-Mail.zip(gmail.png)])
-* Open Weather <br>
-[![Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip)(weather1.png)]
+[![G-Mail Widget](https://github.com/txhammer68/qml/blob/master/G-Mail.zip)]
+(gmail.png)
+* [![Open Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
+(weather1.png)]
 * Search <br>
 [![Search Widget](search.png)](https://github.com/txhammer68/qml/blob/master/org.kde.search.zip)
 * System Monitor Dashboard <br>

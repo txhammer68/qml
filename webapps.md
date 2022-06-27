@@ -32,7 +32,9 @@ if __name__ == "__main__":
     if not engine.rootObjects():
         sys.exit(-1)
     sys.exit(app.exec_()) ```
-   ## QML Code
+
+## QML Code
+
 ```
 import QtQuick 2.8
 import QtQuick.Layouts 1.1

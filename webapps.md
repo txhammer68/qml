@@ -1,4 +1,7 @@
 ## Python Qt Apps
+Use python to create webapps for your favorite websites, Netflix, Facebook, Instagram, Apple TV, etc...
+The qml webengine view isolates the web site from your normal web browswer, so cookies, trackers are not in your default web profile.
+Each app has its own profile and security settings, stored in ~/.config/WebAppName
 
     * Qt Apps
         * Weather

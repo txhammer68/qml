@@ -7,7 +7,7 @@
         * Netflix
         * Facebook
 
-## Sample python code for web app/ companion qml code for webview
+### Sample python code for web app/ companion qml code for webview
 
 ```python
 import os
@@ -32,4 +32,38 @@ if __name__ == "__main__":
     if not engine.rootObjects():
         sys.exit(-1)
     sys.exit(app.exec_())
-    ```
+```
+### QML code for webview
+
+```qml
+import QtQuick 2.8
+import QtQuick.Layouts 1.1
+import QtQuick.Controls 2.5
+import org.kde.plasma.core 2.0
+import QtWebEngine 1.5
+import QtQuick.Window 2.15
+
+
+
+ApplicationWindow {
+        id:root
+        visible: true
+        width: Screen.width*.90
+        height: Screen.height*.90
+        title: "Netflix"
+        color : Theme.backgroundColor
+
+
+        WebEngineView {
+                        id:webNetflix
+                         anchors.fill:parent
+                         url: "https://www.netflix.com/"
+                          onNewViewRequested: {
+                             if (request.userInitiated) {
+                              request.action = WebEngineView.IgnoreRequest;
+                              Qt.openUrlExternally(request.requestedUrl);
+                            }
+                        }
+                }
+}
+```

@@ -9,7 +9,8 @@
 
 ## Sample python code for web app/ companion qml code for webview
 
-``` import os
+``` 
+import os
 import sys
 
 from PyQt5.QtCore import QUrl

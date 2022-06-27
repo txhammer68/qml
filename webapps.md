@@ -6,7 +6,10 @@
     * Web Apps
         * Netflix
         * Facebook
-
+## Requirements
+   * python-pyqt5
+   * python-pyqt5-webengine
+  
 ### Sample python code for web app/ companion qml code for webview
 
 ```python

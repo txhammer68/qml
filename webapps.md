@@ -31,9 +31,9 @@ if __name__ == "__main__":
 
     if not engine.rootObjects():
         sys.exit(-1)
-    sys.exit(app.exec_()) ```
-
-## QML Code
+    sys.exit(app.exec_())```
+    
+## Sample python code for web app/ companion qml code for webview
 
 ```
 import QtQuick 2.8

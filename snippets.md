@@ -11,7 +11,6 @@
   preferredWidth:120
   preferredHeight:120
 ```
-
 ### Anchors
 ```qml
   anchors.top:parent.bottom
@@ -41,7 +40,6 @@ verticalAlignment   : Text.AlignTop
                       Text.AlignVCenter (Default)
 
 Layout.alignment: Qt.AlignLeft // Qt.AlignRight // Qt.AlignVCenter // Qt.AlignHCenter
-
 ```
 ### Fonts
 ```qml
@@ -70,7 +68,6 @@ Layout.alignment: Qt.AlignLeft // Qt.AlignRight // Qt.AlignVCenter // Qt.AlignHC
   color: transparent
   color: ColorScope.textColor
 ```
-
 ### QML Theme Options
 ```qml
   Theme.viewTextColor

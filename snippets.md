@@ -1,5 +1,4 @@
-[Plasma Docs](https://develop.kde.org/docs/plasma/widget/plasma-qml-api/)
-<img src="https://tipsonubuntu.com/wp-content/uploads/2016/10/kde-logo-400x218.jpg" width="200">
+<img src="https://tipsonubuntu.com/wp-content/uploads/2016/10/kde-logo-400x218.jpg" width="72"> [Plasma Docs](https://develop.kde.org/docs/plasma/widget/plasma-qml-api/)
  ## QML Formatting
 ### Spacing
 ```qml

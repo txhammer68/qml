@@ -1,4 +1,5 @@
  [Plasma Docs](https://develop.kde.org/docs/plasma/widget/plasma-qml-api/)
+ ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 ## QML Formatting
 ### Spacing
 ```qml

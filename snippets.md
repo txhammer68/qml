@@ -1,4 +1,4 @@
-## QML Formating
+## QML Formatting
 ### Spacing
 ```qml
   Units.smallSpacing

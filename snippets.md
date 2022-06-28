@@ -1,3 +1,4 @@
+ [Plasma Docs](https://develop.kde.org/docs/plasma/widget/plasma-qml-api/)
 ## QML Formatting
 ### Spacing
 ```qml

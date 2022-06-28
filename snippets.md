@@ -55,7 +55,7 @@ Layout.alignment: Qt.AlignLeft // Qt.AlignRight // Qt.AlignVCenter // Qt.AlignHC
   wrapMode:Text.WordWrap
   font.capitalization: Font.Capitalize  // capital first letter of text string
 ```
-## Colors
+### Colors
 ```qml
   color: Theme.textColor  // default theme color
   color: Theme.viewTextColor

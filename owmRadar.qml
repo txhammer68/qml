@@ -25,7 +25,7 @@ Item {
         clip:true
         WebEngineView {
             anchors.fill: radarMap
-            anchors.topMargin:-65 // remove web page header menu
+            anchors.topMargin:-65 // hide web page header menu
 
             url:"https://openweathermap.org/weathermap?basemap=map&lang=en&cities=false&layer=radar&"+geoLocation+"&zoom=6"
             profile:  WebEngineProfile{
@@ -33,13 +33,20 @@ Item {
                // httpUserAgent:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
                // httpAcceptLanguage : "en-US,en;q=0.5"
                 persistentCookiesPolicy : NoPersistentCookies// ForcePersistentCookies
+                offTheRecord: true
                 //NoPersistentCookies //
             }
 
             ///onPresentNotification :
             onFeaturePermissionRequested: {
                 grantFeaturePermission(securityOrigin, feature, true); // allows map leaflet
+                grantFeaturePermission(securityOrigin, cookies, false)
+                ///f"firstPartyUrl: {request.firstPartyUrl.toString()}, origin: {request.origin.toString()}, thirdParty? {request.thirdParty}"
                 //grantFeaturePermission(securityOrigin, cookie, true); // not working, not sure??
+
+                // profile->cookieStore()->setCookieFilter(
+                // [&allowThirdPartyCookies](const QWebEngineCookieStore::FilterRequest &request)
+                // { return !request.thirdParty || allowThirdPartyCookies; }
             }
              //CookieManager.setAcceptFileSchemeCookies:false;
             // CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true);

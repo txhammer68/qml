@@ -3,9 +3,9 @@
 #### edit qml code to change weather lat/lon, sports team, stocks, etc. <br>
 
 * [G-Mail](https://github.com/txhammer68/qml/blob/master/G-Mail.zip)<br>
-[![G-Mail Widget](gmail.png)](https://github.com/txhammer68/qml/blob/master/G-Mail.zip)<br>
-* [Dark Sky Weather](https://github.com/txhammer68/qml/blob/master/DakrSky.zip)<br>
-[![Dark Sky Weather](dark-sky.png)](https://github.com/txhammer68/qml/blob/master/DakrSky.zip) <br>
+[![](gmail.png)]<br>
+* [Dark Sky Weather](https://github.com/txhammer68/qml/blob/master/DarkSky.zip)<br>
+[![Dark Sky Weather](dark-sky.png)](https://github.com/txhammer68/qml/blob/master/DarkSky.zip) <br>
 * [Open Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip)<br>
 [![Open Weather](OpenWeather.png)](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
 * [Lotto](https://github.com/txhammer68/qml/blob/master/Lotto.zip)<br>

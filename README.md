@@ -7,11 +7,10 @@
   <img alt="G-Mail" src="gmail.png">
 </picture> <br>
 * [Dark Sky Weather](https://github.com/txhammer68/qml/blob/master/DarkSky.zip) <br>
-* <picture>
+<picture>
   <img alt="DarkSky" src=dark-sky.png">
 </picture> <br>
 * [Open Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>
-![Open Weather](OpenWeather.png)]
 <picture>
   <img alt="OWM" src="OpenWeather.png">
 </picture> <br>

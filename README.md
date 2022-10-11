@@ -5,7 +5,7 @@
 * [G-Mail](https://github.com/txhammer68/qml/blob/master/G-Mail.zip) <br>
 <picture>
   <img alt="G-Mail" src="gmail.png">
-</picture>
+</picture> <br>
 * [Dark Sky Weather](https://github.com/txhammer68/qml/blob/master/DarkSky.zip) <br>
 ![Dark Sky Weather](dark-sky.png)
 * [Open Weather](https://github.com/txhammer68/qml/blob/master/OpenWeather.zip) <br>

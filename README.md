@@ -30,6 +30,7 @@
 <picture>
   <img alt="menu" src="system-menu.png" width="255">
 </picture> <br>
+Thanks to https://github.com/kppleos for inspiration
 [G-Mail Workspace](https://github.com/txhammer68/qml/blob/master/gmail/gmail.zip) <br>
 <picture>
   <img alt="workspace" src="Screenshot_gmail.png" width="384">

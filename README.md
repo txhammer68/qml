@@ -18,5 +18,5 @@
  [![System menu](system-menu.png)](https://github.com/txhammer68/qml/blob/master/system-menu.zip)
 * G-Mail Workspace <br>
  [![G-Mail Workspace](Screenshot_gmail.png)](https://github.com/txhammer68/qml/blob/master/gmail/gmail.zip)
- * SlideShow <br>
+ * SlideShow w/ Ken Burn's Effects<br>
  [![slideshow](slideshow.png)](https://github.com/txhammer68/qml/blob/master/slideshow.zip)

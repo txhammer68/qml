@@ -38,3 +38,7 @@
 <picture>
   <img alt="slideshow" src="slideshow.png" width="384">
 </picture> <br>
+[Donate to my PayPal Account](https://paypal.me/taylorcm68)
+<a href="https://paypal.me/taylorcm68">
+<img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg" width="24" height="24"/>
+</a>

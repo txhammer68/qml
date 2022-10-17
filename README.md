@@ -39,7 +39,6 @@ Thanks to [kppleos](https://github.com/kppleos) for inspiration <br>
 <picture>
   <img alt="slideshow" src="slideshow.png" width="384">
 </picture> <br>
-(https://paypal.me/taylorcm68)
 <a href="https://paypal.me/taylorcm68">
-<img src="paypal.png" width="48" height="24"/>
+<img src="https://img.shields.io/badge/PayPal-%23F2BA37?style=for-the-badge&logo=paypal" width="48" height="24"/>
 </a>

@@ -39,7 +39,7 @@ Thanks to [kppleos](https://github.com/kppleos) for inspiration <br>
 <picture>
   <img alt="slideshow" src="slideshow.png" width="384">
 </picture> <br>
-[Donate to my PayPal Account](https://paypal.me/taylorcm68)
+(https://paypal.me/taylorcm68)
 <a href="https://paypal.me/taylorcm68">
-<img src="paypal.png" width="48" height="24"/>
+<img src="./paypal.png" width="48" height="24"/>
 </a>

@@ -299,12 +299,4 @@ Rectangle {
         triggeredOnStart:false
         onTriggered:getData(url1)
     }
-
-    DataSource {
-        id: checkTimer  // use system clock for wake from suspend check
-        engine: "time"
-        connectedSources: ["Local"]
-        interval: 995
-        //onNewData:timeChanged()>1210 ?  suspendTimer.start():suspendTimer.stop()
-    }
 }

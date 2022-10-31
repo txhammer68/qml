@@ -9,11 +9,8 @@ Rectangle {
     // docs https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b
     //property var url1:"https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/18"
     //property var url1:"https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard"
-   // property var url1:"/home/matt/Downloads/scoreboard.json"
     property var url1:"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
-    //property var scores:{}
     property var key:0
-    property var t1:""
     //property var favTeam:"Houston Astros"
     property var favTeam:"Houston Rockets"
 

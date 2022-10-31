@@ -6,6 +6,7 @@ Rectangle {
     width:420
     height:185
     color:"black"
+    // docs https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b
     //property var url1:"https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/18"
     //property var url1:"https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard"
    // property var url1:"/home/matt/Downloads/scoreboard.json"

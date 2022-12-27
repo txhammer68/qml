@@ -1,5 +1,5 @@
-# Misc Plasma qml widgets/code
-#### no config widget dev for personal use <br>
+#@ Misc Plasma qml widgets
+#### no config widgets developed for personal use <br>
 #### edit qml code to change weather lat/lon, sports team, stocks, etc. <br>
 
 [G-Mail](https://github.com/txhammer68/qml/blob/master/G-Mail.zip) <br>

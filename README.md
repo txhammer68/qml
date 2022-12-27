@@ -1,4 +1,4 @@
-## Misc Plasma qml widgets
+## Misc KDE 5 Plasma qml widgets
 #### no config widgets developed for personal use <br>
 #### edit qml code to change weather lat/lon, sports team, stocks, etc. <br>
 

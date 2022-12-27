@@ -39,3 +39,7 @@ Thanks to [kppleos](https://github.com/kppleos) for inspiration <br>
 <picture>
   <img alt="slideshow" src="slideshow.png" width="384">
 </picture> <br>
+[Today Side Panel Widget](https://github.com/txhammer68/qml/blob/master/Today.zip) <br>
+<picture>
+  <img alt="today" src="today.png" width="384">
+</picture> <br>

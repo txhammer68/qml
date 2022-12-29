@@ -37,14 +37,17 @@
   <img alt="menu" src="system-menu.png" width="255">
 </picture> <br>
 Thanks to [kppleos](https://github.com/kppleos) for inspiration <br>
+<br>
 [G-Mail Workspace](https://github.com/txhammer68/qml/blob/master/gmail/gmail.zip) <br>
 <picture>
   <img alt="workspace" src="Screenshot_gmail.png" width="384">
 </picture> <br>
+<br>
 [SlideShow w/ Ken Burn's Effects](https://github.com/txhammer68/qml/blob/master/slideshow.zip) <br>
 <picture>
   <img alt="slideshow" src="slideshow.png" width="384">
 </picture> <br>
+<br>
 [Today Side Panel Widget](https://github.com/txhammer68/qml/blob/master/Today.zip) <br>
 <picture>
   <img alt="today" src="today.png" width="384">

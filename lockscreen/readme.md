@@ -13,10 +13,13 @@
 </picture>
 <br>
 
+### Lockscreen Settings <br>
 <picture>
   <img alt="config" src="lockscreenSettings.png" width="512">
 </picture> <br>
 <br>
+
+Download [MyBreeze.zip](https://github.com/txhammer68/plasma-Lockscreen-nest-hub/blob/master/MyBreeze.zip) to test usage
 
 * Lockscreen
     * Select Clock Style

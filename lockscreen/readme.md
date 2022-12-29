@@ -61,7 +61,6 @@ Download [MyBreeze.zip](https://github.com/txhammer68/plasma-Lockscreen-nest-hub
 ### Calendar Events
 * Events.qml within components folder
 * Edit to add / change events for your needs
-<br>
 
 ### Weather Info
 * [Obtain key for Open Weather API](https://openweathermap.org/api) <br>

@@ -6,11 +6,13 @@
   <img alt="OWM" src="lockscreen-win10.png" width="512">
 </picture>
 <br>
+
 ### Hub Info Lockscreen <br>
 <picture>
   <img alt="OWM" src="lockscreen.png" width="512">
 </picture>
 <br>
+
 * Lockscreen
     * Select Clock Style
     * System Settings - >Workspace Behavior - >Screen Locking ->Appearance ->Clock Style Config
@@ -55,7 +57,7 @@
 <br>
 <br>
 ### Weather Info
-* [Obtain key for Open Weather API](https://openweathermap.org/api)<br>
+* [Obtain key for Open Weather API](https://openweathermap.org/api) <br>
 * Use systemd timer to update weather
 * Write json data to to local file, used in lockscreen and panel widget
 <br>

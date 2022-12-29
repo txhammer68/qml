@@ -1,6 +1,16 @@
 
 ## Lockscreen for KDE Plasma 5
 
+### Win 10 Lockscreen <br>
+<picture>
+  <img alt="OWM" src="lockscreen-win10.png" width="512">
+</picture>
+<br>
+### Hub Info Lockscreen <br>
+<picture>
+  <img alt="OWM" src="lockscreen.png" width="512">
+</picture>
+<br>
 * Lockscreen
     * Select Clock Style
     * System Settings - >Workspace Behavior - >Screen Locking ->Appearance ->Clock Style Config
@@ -55,11 +65,3 @@
   <img alt="OWM" src="lockscreenSettings.png" width="512">
 </picture> <br>
 <br>
-### Win 10 Lockscreen <br>
-<picture>
-  <img alt="OWM" src="lockscreen-win10.png" width="512">
-</picture>
-### Hub Info Lockscreen <br>
-<picture>
-  <img alt="OWM" src="lockscreen.png" width="512">
-</picture>

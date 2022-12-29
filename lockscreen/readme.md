@@ -57,6 +57,7 @@ Download [MyBreeze.zip](https://github.com/txhammer68/plasma-Lockscreen-nest-hub
 * [Gmail Oauth](https://developers.google.com/gmail/api/quickstart/python) <br>
 * [Google APIs Client Library for Python](https://googleapis.github.io/google-api-python-client/docs/) <br>
 * [Sample script to get unred messages](https://github.com/akora/gmail-message-counter-python) <br>
+* Change to write output to file read by Clock10.qml / ClockHub.qml
 
 ### Calendar Events
 * Events.qml within components folder

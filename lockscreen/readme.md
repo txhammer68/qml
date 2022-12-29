@@ -13,6 +13,11 @@
 </picture>
 <br>
 
+<picture>
+  <img alt="config" src="lockscreenSettings.png" width="512">
+</picture> <br>
+<br>
+
 * Lockscreen
     * Select Clock Style
     * System Settings - >Workspace Behavior - >Screen Locking ->Appearance ->Clock Style Config
@@ -61,10 +66,3 @@
 * [Obtain key for Open Weather API](https://openweathermap.org/api) <br>
 * Use systemd timer to update weather
 * Write json data to to local file, used in lockscreen and panel widget
-<br>
-<br>
-### Settings for lockscreen clock style
-<picture>
-  <img alt="OWM" src="lockscreenSettings.png" width="512">
-</picture> <br>
-<br>

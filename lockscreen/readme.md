@@ -64,5 +64,5 @@ Download [MyBreeze.zip](https://github.com/txhammer68/plasma-Lockscreen-nest-hub
 
 ### Weather Info
 * [Obtain key for Open Weather API](https://openweathermap.org/api) <br>
-* Use systemd timer to update weather
-* Write json data to to local file, used in lockscreen and panel widget
+* Use systemd timer to update weather with curl
+* Write json data to to local file, used in lockscreen Clock10.qml / ClockHub.qml

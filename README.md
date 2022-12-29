@@ -5,7 +5,7 @@
 [Lockscreen](lockscreen/readme.md) <br>
 
 <picture>
-  <img alt="G-Mail" src="lockscreen-win10.png" width="255">
+  <img alt="G-Mail" src="lockscreen-win10.png" width="340">
 </picture> <br>
 
 [G-Mail](https://github.com/txhammer68/qml/blob/master/G-Mail.zip) <br>

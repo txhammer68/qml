@@ -45,27 +45,21 @@
 <br>
 <br>
 ### Weather Info
-* [Obtain key for Open Weather API](https://openweathermap.org/api)
+* [Obtain key for Open Weather API](https://openweathermap.org/api)<br>
 * Use systemd timer to update weather
 * Write json data to to local file, used in lockscreen and panel widget
 <br>
 <br>
-
 ### Settings for lockscreen clock style
-
 <picture>
   <img alt="OWM" src="lockscreenSettings.png" width="512">
 </picture> <br>
 <br>
-
+### Win 10 Lockscreen <br>
 <picture>
   <img alt="OWM" src="lockscreen-win10.png" width="512">
 </picture>
-
-### Win 10 Lockscreen <br>
-
+### Hub Info Lockscreen <br>
 <picture>
   <img alt="OWM" src="lockscreen.png" width="512">
 </picture>
-
-### Hub Info Lockscreen <br>

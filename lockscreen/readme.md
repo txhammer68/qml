@@ -45,7 +45,7 @@ Or create your own theme and use Clock10.qml or ClockHub.qml to replace the stan
 * NYSE market data from yahoo.finance.com
 * Sports data from espn.com
 * Weather data from dark sky
-* G-Mail unread message count python script to text file unread msg count
+* G-Mail unread messages count
 
 #### GetData.qml library functions to retrieve data from internet
 * Edit this file for weather, market data, sports teams, gmail

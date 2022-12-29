@@ -56,6 +56,7 @@
 <br>
 <br>
 <br>
+
 ### Weather Info
 * [Obtain key for Open Weather API](https://openweathermap.org/api) <br>
 * Use systemd timer to update weather

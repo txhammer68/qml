@@ -38,7 +38,7 @@ Thanks to [kppleos](https://github.com/kppleos) for inspiration <br>
 <br>
 [G-Mail Workspace](https://raw.githubusercontent.com/txhammer68/qml/master/gmail/gmail.zip) <br>
 <picture>
-  <img alt="workspace" src="Screenshot_gmail.png" width="384">
+  <img alt="workspace" src="Screenshot_gmail.png" width="512">
 </picture> <br>
 <br>
 [SlideShow w/ Ken Burn's Effects](https://raw.githubusercontent.com/txhammer68/qml/master/slideshow.zip) <br>

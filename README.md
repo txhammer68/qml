@@ -3,7 +3,6 @@
 #### edit qml code to change weather lat/lon, sports team, stocks, etc. <br>
 
 [Lockscreen](lockscreen/readme.md) <br>
-
 <picture>
   <img alt="G-Mail" src="lockscreen-win10.png" width="340"
 </picture> <br>

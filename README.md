@@ -9,7 +9,7 @@
   onclick="window.open('(https://raw.githubusercontent.com/txhammer68/qml/master/lockscreen-win10.png','targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=no, size=75%, top=25px left=120px'); return false;">
 </picture> <br>
 
-<a href="lockscreen2" onclick="window.open('https://raw.githubusercontent.com/txhammer68/qml/master/lockscreen-win10.png','targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1280px, height=1024px, top=25px left=120px'); return false;">click here</a>
+<a href="#" onclick="window.open('https://raw.githubusercontent.com/txhammer68/qml/master/lockscreen-win10.png','targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1280px, height=1024px, top=25px left=120px'); return false;">click here</a>
 
 [G-Mail](https://raw.githubusercontent.com/txhammer68/qml/master/G-Mail.zip) <br>
 <picture>

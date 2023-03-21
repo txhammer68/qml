@@ -6,7 +6,6 @@
 
 <picture>
   <img alt="G-Mail" src="lockscreen-win10.png" width="340"
-  onclick="window.open('(https://raw.githubusercontent.com/txhammer68/qml/master/lockscreen-win10.png','targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=no, size=75%, top=25px left=120px'); return false;">
 </picture> <br>
 
 <a href="" onclick="window.open('https://raw.githubusercontent.com/txhammer68/qml/master/lockscreen-win10.png','targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1280px, height=1024px, top=25px left=120px'); return false;">click here</a>

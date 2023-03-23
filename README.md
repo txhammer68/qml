@@ -1,10 +1,8 @@
 ## Misc KDE 5 Plasma qml widgets
 #### no config widgets developed for personal use <br>
-#### edit qml code to change weather lat/lon, sports team, stocks, etc. <br>
-
 [Lockscreen](lockscreen/readme.md) <br>
 <picture>
-  <img alt="G-Mail" src="lockscreen-win10.png" width="340"
+  <img alt="lockscreen" src="lockscreen-win10.png" width="340">
 </picture> <br>
 [G-Mail](https://raw.githubusercontent.com/txhammer68/qml/master/G-Mail.zip) <br>
 <picture>

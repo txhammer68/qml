@@ -19,7 +19,7 @@
 </picture> <br>
 <br>
 
-Download [MyBreeze.zip](https://github.com/txhammer68/plasma-Lockscreen-nest-hub/blob/master/MyBreeze.zip) to test usage<br>
+Download [MyBreeze.zip](https://github.com/txhammer68/qml/blob/master/lockscreen/MyBreeze.zip) to test usage<br>
 Or create your own theme and use Clock10.qml or ClockHub.qml to replace the standard Clock.qml in the Breeze LnF theme.<br>
 
 * Lockscreen
